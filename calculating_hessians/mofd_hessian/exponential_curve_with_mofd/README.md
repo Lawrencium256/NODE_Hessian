@@ -16,7 +16,7 @@ Solver = dopri5
 
 Test, Hessian Frequencies = 100
 
-<span style="text-decoration:underline;">Experiment 2</span>
+<ins>Experiment 2<ins>
 
 Batch size = 20
 
@@ -28,7 +28,7 @@ Solver = dopri5
 
 Test, Hessian Frequencies = 100
 
-<span style="text-decoration:underline;">Experiment 3</span>
+<ins>Experiment 3<ins>
 
 Batch size = 10
 
