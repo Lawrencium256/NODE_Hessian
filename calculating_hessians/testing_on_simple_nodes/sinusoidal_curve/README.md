@@ -1,36 +1,30 @@
 ### README: Sinusoidal Curve Fitting
 
-These are the results associated with Hessian calculations for a NODE designed to fit 2 coupled sinusoidal 1D ODEs. 
+Code and results associated with Hessian calculations for a NODE designed to fit 2 coupled sinusoidal 1D ODEs.  The NODE is trained using the file **sinusoidal_curve.ipynb**. The architecture used in both cases is that of a 2D input and output space, with 1 hidden layer. Other details are as follows:
 
-The NODE is trained using the file **sinusoidal_curve.ipynb**. The architecture used in both cases is that of a 2D input and output space, with a 5D latent space.
+* Solver: <code>dopri5</code>
 
-Other details are as follows:
+* Batch Size, Time: Varied
 
-Solver: **<code>dopri5</code></strong>
+* Number of Iterations: Varied
 
-Batch Size, Time: Varied
+* Test Frequency: 100
 
-Number of Iterations: Varied
+* Data Size: 1000
 
-Test Frequency: 100
+* Activation Function: Tanh()
 
-Data Size: 1000
-
-Activation Function: Tanh()
-
-Learning Rate: 1e-3
+* Learning Rate: 1e-3
 
 There are 2 similar but different experiments that have been run:
 
 <span style="text-decoration:underline;">1000 iters:</span>
 
-
-    As above, except the batch size and time are 40 and 20 respectively. The system is trained for 1000 iterations.
+As above, except the batch size and time are 40 and 20 respectively. The system is trained for 1000 iterations.
 
 <span style="text-decoration:underline;">8000 iters:</span>
 
-
-    As above, except the batch size and time are 200 and 50 respectively. The system is trained for 8000 iterations.
+As above, except the batch size and time are 200 and 50 respectively. The system is trained for 8000 iterations.
 
 The Hessians for the models saved (at the test frequency) were calculated using the 3 available approaches: the MOFD, library-based and “manual” approaches. This is done in a separate file - **hessians_sinusoidal.ipynb**.
 
