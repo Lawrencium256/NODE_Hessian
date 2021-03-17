@@ -10,7 +10,7 @@ difference = torch.sum(torch.abs(mofd_hess-lib_hess))
 ```
 
 
-These are evaluated for several network architectures, all of which are based on the architecture used to train a NODE to fit an exponential curve. The architecture is varied according to activation function, dimensionality of the latent space, and prior functionality of the input state (i.e. the network f acts as f(y) or f(y^3)). The full details are as follows:
+These are evaluated for several network architectures, all of which are based on the architecture used to train a NODE to fit an exponential curve. The architecture is varied according to activation function, dimensionality of the latent space, and prior functionality of the input state (i.e. the network $f$ acts as $f(y)$ or $f(y^3))$. The full details are as follows:
 
 
 
