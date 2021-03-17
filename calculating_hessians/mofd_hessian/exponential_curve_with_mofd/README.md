@@ -4,7 +4,7 @@ These experiments are performed to compare the performances of the Method of Fin
 
 There are 2 experiments that have been performed, summarised as follows:
 
-<span style="text-decoration:underline;">Experiment 1</span>
+<ins>Experiment 1<ins>
 
 Batch size = 100 
 
