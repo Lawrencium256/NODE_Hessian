@@ -27,5 +27,4 @@ These are evaluated for several network architectures, all of which are based on
 *   Figure 11: `Sigmoid()` activation function, 2 dim latent space, 7 parameters, f(y^3)
 *   Figure 12: `ReLU()` activation function, 2 dim latent space, 7 parameters,f(y^3)
 
-Another important point to note is that plots 6,9,12 all use a `ReLU()` activation function and have a Hessian containing purely zeros. The reason for this is yet to be determined.
-
+Another important point to note is that plots 6,9,12 all use a `ReLU()` activation function and have a Hessian containing purely zeros. The reason for this is likely to do with 'dead' neurons.
