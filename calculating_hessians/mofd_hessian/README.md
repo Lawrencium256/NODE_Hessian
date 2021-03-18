@@ -2,7 +2,7 @@
 
 This can be done using 32-bit and 64-bit floating point arithmetic (the code for these are shown in their respective files). The folder **exponential_curve_with_mofd** compares the results of this method with the other approaches available.
 
-The graphs in this section show the accuracy of Hessian approximation using the Method of Finite Differences as a function of the size of perturbation parameter used.
+The graphs show the accuracy of Hessian approximation using the Method of Finite Differences as a function of the size of perturbation parameter used.
 
 The code is designed using float-64 arithmetic in an attempt to improve the precision of the final calculations.
 
