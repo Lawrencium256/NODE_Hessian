@@ -1,4 +1,4 @@
-network_1 description:
+**network_1**:
 
 Input: vector [1.0,1.0]
 
