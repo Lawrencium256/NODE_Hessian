@@ -1,4 +1,4 @@
-Initial Exponential Curve NODE Description
+**Initial Exponential Curve NODE**
 
 Ground truth equation: dy/dt = exp(t), y_0 = 2, t_0 &lt; t &lt;t_1
 
