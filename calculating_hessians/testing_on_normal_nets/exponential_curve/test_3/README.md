@@ -1,4 +1,4 @@
-Test_3 description
+**Test_3**:
 
 Ground truth equation: dy/dt = exp(t), y_0 = 2, t_0 &lt; t &lt;t_1
 
