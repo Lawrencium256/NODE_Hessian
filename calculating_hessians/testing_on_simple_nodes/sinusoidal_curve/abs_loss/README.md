@@ -24,7 +24,7 @@ There are 2 similar but different experiments that have been run:
 
 The Hessians for the models saved (at the test frequency) were calculated using the 3 available approaches: the MOFD, library-based and “manual” approaches. This is done in a separate file - **hessians_sinusoidal.ipynb**.
 
-In all cases except 1 (for iteration 7700 in the _8000 iters_ experiment), these were found to agree, provided a reasonable choice of </int>h</int> was made for the MOFD. The evidence for this is shown in the **eigenvalue_densiy_plots_comparisons** folder. 
+In all cases except 1 (for iteration 7700 in the _8000 iters_ experiment), these were found to agree, provided a reasonable choice of _h_ was made for the MOFD. The evidence for this is shown in the **eigenvalue_densiy_plots_comparisons** folder. 
 
 In addition to this, further checks were made for a larger number of models by comparing the _first 5_ elements of the calculated Hessians. This allowed a larger number of models to be validated. This was done for the _8000 iters_ experiment for the following iterations:
 
