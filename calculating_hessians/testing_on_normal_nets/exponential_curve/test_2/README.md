@@ -7,7 +7,7 @@ Loss function: modulus difference, summed over all time points. In code:
 
 ```
     pred_y = odeint(func, true_y0, t)
-   	loss = torch.mean(torch.abs(pred_y - true_y))
+   loss = torch.mean(torch.abs(pred_y - true_y))
 ```
 
 
