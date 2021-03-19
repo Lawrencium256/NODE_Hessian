@@ -18,13 +18,9 @@ Code and results associated with Hessian calculations for a NODE designed to fit
 
 There are 2 similar but different experiments that have been run:
 
-<span style="text-decoration:underline;">1000 iters:</span>
+1000 iters: As above, except the batch size and time are 40 and 20 respectively. The system is trained for 1000 iterations.
 
-As above, except the batch size and time are 40 and 20 respectively. The system is trained for 1000 iterations.
-
-<span style="text-decoration:underline;">8000 iters:</span>
-
-As above, except the batch size and time are 200 and 50 respectively. The system is trained for 8000 iterations.
+8000 iters: As above, except the batch size and time are 200 and 50 respectively. The system is trained for 8000 iterations.
 
 The Hessians for the models saved (at the test frequency) were calculated using the 3 available approaches: the MOFD, library-based and “manual” approaches. This is done in a separate file - **hessians_sinusoidal.ipynb**.
 
