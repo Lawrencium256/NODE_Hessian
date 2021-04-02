@@ -2,7 +2,7 @@
 
 The key things seen from these experiments are as below:
 
-<u>Experiment 0</u>
+</int>Experiment 0</int>
 
 * ANODE top eigenvalue grows more quickly than that of the NODE. It then decays to a smaller value later in training, and does so more smoothly
 * NODE possesses a 'spike' which is associated with a jump in the loss surface.
