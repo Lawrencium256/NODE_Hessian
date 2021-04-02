@@ -8,6 +8,7 @@ The key things seen from these experiments are as below:
 * NODE possesses a 'spike' which is associated with a jump in the loss surface.
 * 2nd eigenvalue for ANODE also decays more quickly than for the NODE. Again, it does so more smoothly.
 * The curves of minimum eigenvalue are roughly comparable, although that of the ANODE is smoother and perhaps slightly smaller.
+* For both NODE and ANODE, the final eigenspectra possess ~2-3 top outliers.
 
 <u>Experiment 1</u>
 
@@ -15,7 +16,7 @@ The key things seen from these experiments are as below:
 * Didn't see any isolated spikes of top eigenvalue.
 * Same thing with the 2nd eigenvalue.
 * Minimum eigenvalue for ANODE decays towards 0 more quickly a smoothly than for the NODE.
-
+* At end of training, NODE certainly possesses better defined 2 outliers; ANODE has ~2-3 outliers.
 
 
 <u>Experiment 2</u>
@@ -24,8 +25,10 @@ The key things seen from these experiments are as below:
 * Don't see any isolated spikes in top eigenvalue.
 * Same thing for the 2nd eigenvalues.
 * Minimum eigenvalue does the same thing as in experiment 1.
+* At end of training, NODE certainly possesses better defined 2 outliers. ANODE has ~2-3 outliers. 
 
 <u>Experiment 3</u>
 
 * Same thing with top eigenvalue decay, although in this case the ANODE top eigenvalue decays to a value significantly smaller than in previous repeats.
 * Same thing with the 2nd and minimum eigenvalues.
+* At end of training, NODE has ~2-4 top outliers. ANODE has ~2-5.
